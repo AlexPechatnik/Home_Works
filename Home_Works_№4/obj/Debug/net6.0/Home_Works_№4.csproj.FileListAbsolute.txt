@@ -1,0 +1,15 @@
+C:\Users\Printer2\Desktop\geekbrains_Home_Works\Home_Works_№4\bin\Debug\net6.0\Home_Works_№4.exe
+C:\Users\Printer2\Desktop\geekbrains_Home_Works\Home_Works_№4\bin\Debug\net6.0\Home_Works_№4.deps.json
+C:\Users\Printer2\Desktop\geekbrains_Home_Works\Home_Works_№4\bin\Debug\net6.0\Home_Works_№4.runtimeconfig.json
+C:\Users\Printer2\Desktop\geekbrains_Home_Works\Home_Works_№4\bin\Debug\net6.0\Home_Works_№4.dll
+C:\Users\Printer2\Desktop\geekbrains_Home_Works\Home_Works_№4\bin\Debug\net6.0\Home_Works_№4.pdb
+C:\Users\Printer2\Desktop\geekbrains_Home_Works\Home_Works_№4\obj\Debug\net6.0\Home_Works_№4.csproj.AssemblyReference.cache
+C:\Users\Printer2\Desktop\geekbrains_Home_Works\Home_Works_№4\obj\Debug\net6.0\Home_Works_№4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Printer2\Desktop\geekbrains_Home_Works\Home_Works_№4\obj\Debug\net6.0\Home_Works_№4.AssemblyInfoInputs.cache
+C:\Users\Printer2\Desktop\geekbrains_Home_Works\Home_Works_№4\obj\Debug\net6.0\Home_Works_№4.AssemblyInfo.cs
+C:\Users\Printer2\Desktop\geekbrains_Home_Works\Home_Works_№4\obj\Debug\net6.0\Home_Works_№4.csproj.CoreCompileInputs.cache
+C:\Users\Printer2\Desktop\geekbrains_Home_Works\Home_Works_№4\obj\Debug\net6.0\Home_Works_№4.dll
+C:\Users\Printer2\Desktop\geekbrains_Home_Works\Home_Works_№4\obj\Debug\net6.0\refint\Home_Works_№4.dll
+C:\Users\Printer2\Desktop\geekbrains_Home_Works\Home_Works_№4\obj\Debug\net6.0\Home_Works_№4.pdb
+C:\Users\Printer2\Desktop\geekbrains_Home_Works\Home_Works_№4\obj\Debug\net6.0\Home_Works_№4.genruntimeconfig.cache
+C:\Users\Printer2\Desktop\geekbrains_Home_Works\Home_Works_№4\obj\Debug\net6.0\ref\Home_Works_№4.dll
