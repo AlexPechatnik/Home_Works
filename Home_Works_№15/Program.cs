@@ -1,4 +1,4 @@
-﻿Console.Write("Введи целое число: ");
+﻿Console.Write("Введи целое число от 1 до 7: ");
 int numberA = int.Parse(Console.ReadLine());
 switch (numberA)
 {
