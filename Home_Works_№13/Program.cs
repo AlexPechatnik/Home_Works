@@ -9,12 +9,20 @@ if (a <= 99)
     return;
 }
 
-if (a >= 1000)
+if (a >= 9999)
 {
-    result = (a / 100) %10;
+    result = (a / 100) % 10;
     Console.WriteLine(result);
     return;
 }
+
+if (a >= 1000)
+{
+    result = (a / 10) % 10;
+    Console.WriteLine(result);
+    return;
+}
+
 if (a <= 999)
 {
     result = a % 10;
