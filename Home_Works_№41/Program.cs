@@ -2,33 +2,44 @@
 Задача 41: Пользователь вводит с клавиатуры M чисел. 
 Посчитайте, сколько чисел больше 0 ввёл пользователь.
 */
-
-int[] array = new int[5];
-
-Console.WriteLine("Введите певое число ");
-int num1 = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите второе число ");
-int num2 = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите третье число ");
-int num3 = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите четветртое число ");
-int num4 = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите пятое число ");
-int num5 = int.Parse(Console.ReadLine());
-
-array[1] = num1;
-array[2] = num2;
-array[3] = num3;
-array[4] = num4;
-array[5] = num5;
-
-int m = 0;
-
-for (int i = 0; i < 5; i++)
+int Prompt(string message)
 {
-    if (array[i] > 0)
+    Console.Write(message);
+    string value = Console.ReadLine();
+    int result = Convert.ToInt32(value);
+    return result;
+}
+int[] InputArray(int length)
+{
+    int[] array = new int[length];
+    for (int i = 0; i < array.Length; i++)
     {
-        m++;
+        array[i] = Prompt($"Введите {i + 1}-й элемент ");
+    }
+    return array;
+}
+void PrintArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.WriteLine($"а [{i}]={array[i]}");
     }
 }
-Console.WriteLine(m);
+
+int count = 0;
+int CuontPositiveNumber(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i] > 0)
+        {
+            count++;
+        }
+    }
+    return count;
+}
+int length = Prompt("Введите количесвто элементов >");
+int[] array;
+array = InputArray(length);
+PrintArray(array);
+Console.WriteLine($"Количество чисел больше 0 - {CuontPositiveNumber(array)}");
